@@ -3,7 +3,7 @@ Here I put two commonly used latex temaplates.
 
 The first one is for some English based articles, The second one is for the Chinese based article.
 
-And examples and codes are given， I highly recommond that you just copy and past on the overleaf.
+And examples and codes are given， I highly recommond that you just copy and past to the overleaf.
 
 # Latex模板
 这里有两个LaTeX模板，一个是中文的 一个是英文的
