@@ -1,0 +1,175 @@
+%!TEX program = xelatex
+\documentclass[UTF8,AutoFakeBold]{ctexart}
+% Other classes are available too:
+%\documentclass[UTF8,AutoFakeBold]{ctexrep}
+% \documentclass{ctexbook}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\numberwithin{equation}{section}
+\usepackage{pdflscape} % Rotate the page
+\usepackage{mathrsfs}
+\usepackage{physics} % Add physics notations
+\usepackage{fontspec}
+\usepackage[many]{tcolorbox} % Enable to draw a fancy colored box
+\usepackage{xcolor}
+\usepackage{empheq} % Advanced amsmath, draw a box
+\usepackage{enumitem} % Set the environment $ enumerate$
+\usepackage{geometry}
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+\usepackage{anyfontsize}
+\usepackage{multicol} % Enable Multicolumn Enviroment
+\usepackage{slashed} % Feynman Slash Notation
+\usepackage{graphicx} % graphics controll
+\usepackage{float} % graphics controll position
+\usepackage{subfigure} % Enable use subfig
+\usepackage[affil-it]{authblk} % Enable use affliation
+\usepackage{footnote} % Enable use footnote
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+%===================================================
+% New Defined Commands
+%===================================================
+% Norm
+\newcommand{\nm}[1]{\left\Vert #1 \right\Vert}
+
+% no label
+\newcommand{\nl}{\nonumber}
+
+% Inner-product, math
+\newcommand{\ipm}[2]{\langle #1 , #2\rangle}
+
+% Half
+\newcommand{\haf}{\frac{1}{2}}
+
+% Brakets
+\newcommand{\xk}[1]{\left( #1 \right)}
+\newcommand{\zk}[1]{\left[ #1 \right]}
+\newcommand{\dk}[1]{\left\{ #1 \right\}}
+
+% Emphasis
+\newcommand{\dqdr}[1]{\textbf{\textcolor{red}{#1}}}
+%====================================================
+%====================================================
+\title{\LARGE \bf 小张同学你好!}
+\author[$\dagger$]{aaa}
+\affil[$\dagger$]{School of Physics, The University of New South Wales, Sydney 2052, Australia \\
+\href{mailto:zhanning.wang@unsw.edu.au}{zhanning.wang@unsw.edu.au} }
+%====================================================
+\begin{document}
+\thispagestyle{empty}
+\maketitle
+%====================================================
+\begin{center}
+{\bf ABSTRACT}\\
+To be Decided
+\end{center}
+%====================================================
+\tableofcontents
+\newpage
+%====================================================
+\section{啊啊啊啊!}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
+%====================================================
+%====================================================
+% Version: 42062019
+% Update: Refine the packege used and functions
+% 	- add affliation and email
+% 	- enable footnote
+%	- new title page
+%	- Table of Content
+
+%====================================================
+% Commonly Used Functions
+%====================================================
+
+%===================
+% Insert a picture
+%===================
+
+%\begin{figure}[H] %H current position，!htb ignore aesthetics，htbp float
+%\centering 
+%\includegraphics[width=0.7\textwidth]{DV_demand} 
+%\caption{Main name 2} 
+%\label{Fig.main2} 
+%\end{figure}
+
+%===================
+% Insert two picture
+%===================
+%\begin{figure}[H]
+%\centering
+%\subfigure[name1]{
+%\label{Fig.sub.1}
+%\includegraphics[width=0.45\textwidth]{DV_demand}}
+%\subfigure[name2]{
+%\label{Fig.sub.2}
+%\includegraphics[width=0.45\textwidth]{P+R_demand}}
+%\caption{Main name}
+%\label{Fig.main}
+%\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
