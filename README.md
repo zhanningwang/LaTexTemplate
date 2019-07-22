@@ -1,0 +1,2 @@
+# LaTexTemplate
+LaTeX Template
